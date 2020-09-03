@@ -1,0 +1,3 @@
+# Calculator
+
+The calculator consists of three modules - "Graphical interface", "Module that analyzes and calculates the entered expression" (AnalaizerClass.dll) and "Module that implements mathematical functions" (CalcClass.dll). After the user enters the computed expression in one of the two ways described above, control is passed to the parser, which formats the expression by selecting numbers and operators, checks the correctness of the structure in parentheses, and detects mathematically incorrect constructions (eg 3 * 3). translates the expression into the inverse Polish notation, then calculates the expressions using mathematical functions from the CalcClass module.
